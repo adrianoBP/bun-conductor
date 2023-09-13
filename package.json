@@ -1,5 +1,5 @@
 {
-  "name": "bun-router",
+  "name": "bun-conductor",
   "version": "0.0.1",
   "description": "HTTP router for Bun",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adrianoBP/bun-router.git"
+    "url": "git+https://github.com/adrianoBP/bun-conductor.git"
   },
   "keywords": [
     "bun",
@@ -20,9 +20,9 @@
   "author": "Adriano Boccardo Pochettino",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/adrianoBP/bun-router/issues"
+    "url": "https://github.com/adrianoBP/bun-conductor/issues"
   },
-  "homepage": "https://github.com/adrianoBP/bun-router#readme",
+  "homepage": "https://github.com/adrianoBP/bun-conductor#readme",
   "devDependencies": {
     "eslint": "^8.49.0",
     "eslint-config-portsoc": "^1.0.1"

@@ -10,7 +10,6 @@ class Router {
 
   use(path, router) {
     this.addTreeBranch(path, router.tree);
-    console.log(this.tree);
   }
 
   get(path, handler) {
@@ -29,7 +28,6 @@ class Router {
     this.addMethod('DELETE', path, handler);
   }
 
-
   addMethod(method, path, handler) {
     if (path == null || path === '' || path === '/') path = '$default';
 
@@ -44,6 +42,9 @@ class Router {
     this.tree[path][method] = handler;
   }
 
+  /**
+   * @param {string} route Default: '/api'
+   */
   serveAPI(route) {
     if (route == null || route === '') route = '/api/';
 
@@ -62,7 +63,6 @@ class Router {
     let urlPath = new URL(req.url).pathname;
 
     if (this.api_route && urlPath.startsWith(this.api_route)) {
-      console.log('API route');
       urlPath = urlPath.substring(this.api_route.length);
 
       const method = req.method;
