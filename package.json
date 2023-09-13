@@ -1,6 +1,6 @@
 {
   "name": "bun-conductor",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "HTTP router for Bun",
   "main": "index.js",
   "scripts": {
