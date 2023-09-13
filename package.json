@@ -1,0 +1,46 @@
+{
+  "name": "bun-router",
+  "version": "0.0.1",
+  "description": "HTTP router for Bun",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianoBP/bun-router.git"
+  },
+  "keywords": [
+    "bun",
+    "bun",
+    "router",
+    "http",
+    "https"
+  ],
+  "author": "Adriano Boccardo Pochettino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adrianoBP/bun-router/issues"
+  },
+  "homepage": "https://github.com/adrianoBP/bun-router#readme",
+  "devDependencies": {
+    "eslint": "^8.49.0",
+    "eslint-config-portsoc": "^1.0.1"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "ignorePatterns": [
+      "node_modules"
+    ],
+    "extends": [
+      "portsoc"
+    ],
+    "root": true,
+    "globals": {
+      "Bun": "readonly"
+    }
+  }
+}
