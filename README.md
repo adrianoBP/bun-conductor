@@ -1,4 +1,4 @@
-# bun-router
+# bun-conductor
 
 Extremely basic and simple router module for [Bun](https://butn.sh).
 
